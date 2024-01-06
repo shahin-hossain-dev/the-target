@@ -20,6 +20,11 @@ body {
     font-size: 20px;
 }
 
+main {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
 /* header style */
 .header {
     background-image: url('../images/banner/banner3.png');
@@ -49,20 +54,17 @@ body {
 /* failure style */
 .failure-container {
     display: flex;
-
-    margin: 140px 130px 0;
     gap: 130px;
     align-items: center;
+    margin-top: 140px;
 }
 
-.failure-content {
+/* .failure-content {
     width: 50%;
-
-}
+} */
 
 .person-img {
     width: 451px;
-
 }
 
 .failure-title {
@@ -90,6 +92,33 @@ body {
     font-weight: 900;
     margin-right: 10px;
     color: #16D887;
+}
 
+/* plan style */
+.plan-container {
+    margin-top: 130px;
+}
 
+.plan-header {
+    text-align: center;
+    font-size: 40px;
+    color: var(--common-black);
+    margin-bottom: 50px;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-title {
+    color: var(--common-black);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    color: #737272;
 }
